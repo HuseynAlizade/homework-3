@@ -1,0 +1,81 @@
+*{
+    margin: 300;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+header{
+ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    margin-left: 300px;
+    background-color: white;
+    border-radius: 10px;
+    width: 720px;
+    height: 57px;
+}
+    
+
+ul{
+        display: flex;
+        list-style: none;
+        margin-right: 15px;
+    }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+    padding: 15px;
+    margin-right: 1px;
+}
+
+main  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-image: url(travel_720.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+  height: 400px;
+  width: 900px;
+  padding: 100px;
+  margin: 10px;
+  background-position:center;
+
+  
+}
+
+.paragraph{
+justify-content: center;
+align-items: center;
+
+}
+
+.Box1{
+    display: flex;
+    justify-content:right;
+    align-items:right;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: white;
+    border-radius: 10px;
+    height: 100px;
+    width: 720px;
+    padding: 100px;
+  margin: 100px;
+}
